@@ -8,11 +8,11 @@
 
 	<div class="container">
 		<center>
+			<br><br>
 			<h4>Export Laporan Excel Pada Laravel</h4>
-			<h5><a target="_blank" href="https://www.malasngoding.com/">www.malasngoding.com</a></h5>
 		</center>
 		
-		<a href="/siswa/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
+		<a href="/buku/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
 		
 		<table class='table table-bordered'>
 			<thead>

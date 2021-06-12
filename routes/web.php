@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/buku', 'BukuController@index');
-Route::get('/buku/export_excel', 'BukuController@export_excel');
+Route::get('/buku', 'App\Http\Controllers\BukuController@index');
+Route::get('/buku/export_excel', 'App\Http\Controllers\BukuController@export_excel');
 
 Route::get('/index', function () {
     return view('index0271');

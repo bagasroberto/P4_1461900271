@@ -52,6 +52,7 @@
     </div>
 </center>
       <button>Tambah Data</button>
+      <a href="">Export</a>
 <br>
    <div class="mt-3" style="max-height: 340px; overflow-y: auto;">
      <table class="table table-bordered">

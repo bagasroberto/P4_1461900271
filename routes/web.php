@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/buku', 'BukuController@index');
+Route::get('/buku/export_excel', 'BukuController@export_excel');
 
 Route::get('/index', function () {
     return view('index0271');
@@ -37,3 +39,4 @@ Route::get('/datauser', function () {
     return view('datauser0271');
 });
 Route::get('/datauser','App\Http\Controllers\MainControll@datauser');
+
